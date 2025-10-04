@@ -131,9 +131,9 @@ public class Java8 {
 
         // 3 .How to find duplicate elements in a given integers list in java using Stream functions
         /* Set<Integer> set = new HashSet<>();
-        list.stream().filter(n ->!set.add(n)).forEach(System.out::println);
+        list.stream().filter(n ->!set.add(n)).forEach(System.out::println);*/
 
-        Arrays.stream(arr).filter(n ->!set.add(n)).forEach(System.out::println);*/
+//        Arrays.stream(arr).filter(n ->!set.add(n)).forEach(System.out::println);
 
         // 4 .Given the list of integers, find the first element of the list using Stream functions
         /*list.stream().findFirst().ifPresent(System.out::println);
